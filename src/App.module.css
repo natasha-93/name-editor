@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+}
+
+.people {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.person {
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.person:hover,
+.person.selected,
+.addPersonButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.label {
+  display: block;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.form > * {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.button[disabled] {
+  opacity: 0.5;
+}
+
+.addPersonButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
